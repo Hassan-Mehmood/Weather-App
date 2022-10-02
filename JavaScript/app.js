@@ -9,7 +9,7 @@ var inputVal;
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   inputVal = input.value;
-  const apiKey = "c1ec115d42d97964732353339ae49817";
+  const apiKey = "YOUR API KEY HERE!";
   const url = `http://api.openweathermap.org/data/2.5/weather?q=${inputVal}&units=metric&appid=${apiKey}`;
 
   fetch(url)
